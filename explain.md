@@ -100,3 +100,54 @@
 
 
 #### Task 8: Handling Merge Conflicts
+
+1.first creat a two branch
+
+    git branch branch-A
+    git branch branch-B
+
+2.merge barnch-A into main
+
+   git checkout main
+   git merge barnch-A    
+
+3.merge barnch-B into main
+
+   git checkout main
+   git merge barnch-B
+
+4.add a file and commit 
+
+  git add .
+  git commit -m "hi"    
+
+#### Task 9: Renaming and Deleting Branches
+
+1.first creat a file 
+  
+  echo "test" > test5
+
+2.add the file and commit 
+  
+  git add.
+  git commit -m "hi"
+
+3.rename a branch 
+  
+  git branch main featuer
+
+4.delete a featuer branch
+  
+  git checkout main
+  git branch -d featuer
+   
+   
+#### Part 3: Advanced Git Operations   
+
+#### Task 10: Using Git Stash
+
+1.first creat a file
+
+    echo "new" >test6.md
+
+2.git stash is save the working direcu,con 
