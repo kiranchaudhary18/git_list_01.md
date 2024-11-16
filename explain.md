@@ -61,3 +61,20 @@
 
 
 #### Task 6: Understanding the Git Workflow
+
+1.first cerat a file 
+
+   echo "workflow" >workflow.md
+
+2.add the file
+
+   git add .
+
+3.commit the file
+
+   git commit -m "added"
+
+   
+   #### Part 2: Working with Repositories
+
+#### Task 7: Branching and Merging
