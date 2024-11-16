@@ -75,6 +75,28 @@
    git commit -m "added"
 
    
-   #### Part 2: Working with Repositories
+#### Part 2: Working with Repositories
 
 #### Task 7: Branching and Merging
+
+1.first creat a branch and checkout with feature
+
+   git branch feature
+   git checkout feature
+
+2.creat a new file
+
+   echo "file" >login
+
+3.add the file and commit
+
+   git add .
+   git commit -m "hi"
+
+4.checkout branch main and merge with feature
+
+   git checkout main
+   git merge feature 
+
+
+#### Task 8: Handling Merge Conflicts
